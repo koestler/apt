@@ -1,0 +1,8 @@
+Origin: koestler
+Label: koestler apt
+Codename: stable
+Suite: stable
+Architectures: amd64 arm64 armhf
+Components: main
+Description: koestler packages
+SignWith: @APT_GPG_KEY_ID@

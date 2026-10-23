@@ -1,0 +1,4 @@
+keep: 32 # releases kept per package
+packages:
+  - repo: koestler/go-iotdevice
+    asset_glob: "*.deb"
