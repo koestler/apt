@@ -2,11 +2,18 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>koestler apt repository</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <h1>koestler apt repository</h1>
-<p>Packages: <code>go-iotdevice</code> (amd64, arm64, armhf)</p>
+<h2>Packages</h2>
+<ul class="packages">
+  <li><code>go-iotdevice</code> <span class="arch">amd64, arm64, armhf</span><br>
+    <span class="arch">Source: <a href="https://github.com/koestler/go-iotdevice">github.com/koestler/go-iotdevice</a></span></li>
+</ul>
+<h2>Installation</h2>
 <pre>
 sudo install -d -m 0755 /etc/apt/keyrings
 curl -fsSL https://koestler.github.io/apt/key.gpg | sudo tee /etc/apt/keyrings/koestler.gpg &gt;/dev/null

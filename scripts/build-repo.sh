@@ -31,7 +31,7 @@ done
 cp -r build/repo/dists build/repo/pool site/
 gpg --export "$APT_GPG_KEY_ID" > site/key.gpg
 gpg --armor --export "$APT_GPG_KEY_ID" > site/key.asc
-cp site-src/index.html site/index.html
+cp site-src/index.html site-src/style.css site/
 touch site/.nojekyll
 
 for f in Release InRelease Release.gpg; do
